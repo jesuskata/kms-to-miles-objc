@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FE717520DB282100D5CAF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE717420DB282100D5CAF9 /* AppDelegate.m */; };
+		66FE717820DB282100D5CAF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE717720DB282100D5CAF9 /* ViewController.m */; };
+		66FE717B20DB282100D5CAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FE717920DB282100D5CAF9 /* Main.storyboard */; };
+		66FE717D20DB282200D5CAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FE717C20DB282200D5CAF9 /* Assets.xcassets */; };
+		66FE718020DB282200D5CAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FE717E20DB282200D5CAF9 /* LaunchScreen.storyboard */; };
+		66FE718320DB282200D5CAF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE718220DB282200D5CAF9 /* main.m */; };
+		66FE718D20DB282200D5CAF9 /* km_to_miles_converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE718C20DB282200D5CAF9 /* km_to_miles_converterTests.m */; };
+		66FE719820DB282200D5CAF9 /* km_to_miles_converterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE719720DB282200D5CAF9 /* km_to_miles_converterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FE718920DB282200D5CAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FE716820DB282100D5CAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE716F20DB282100D5CAF9;
+			remoteInfo = "km-to-miles-converter";
+		};
+		66FE719420DB282200D5CAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FE716820DB282100D5CAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE716F20DB282100D5CAF9;
+			remoteInfo = "km-to-miles-converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FE717020DB282100D5CAF9 /* km-to-miles-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "km-to-miles-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE717320DB282100D5CAF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66FE717420DB282100D5CAF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66FE717620DB282100D5CAF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66FE717720DB282100D5CAF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66FE717A20DB282100D5CAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FE717C20DB282200D5CAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FE717F20DB282200D5CAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66FE718120DB282200D5CAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE718220DB282200D5CAF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66FE718820DB282200D5CAF9 /* km-to-miles-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "km-to-miles-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE718C20DB282200D5CAF9 /* km_to_miles_converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = km_to_miles_converterTests.m; sourceTree = "<group>"; };
+		66FE718E20DB282200D5CAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FE719320DB282200D5CAF9 /* km-to-miles-converterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "km-to-miles-converterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FE719720DB282200D5CAF9 /* km_to_miles_converterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = km_to_miles_converterUITests.m; sourceTree = "<group>"; };
+		66FE719920DB282200D5CAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FE716D20DB282100D5CAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE718520DB282200D5CAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE719020DB282200D5CAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FE716720DB282100D5CAF9 = {
+			isa = PBXGroup;
+			children = (
+				66FE717220DB282100D5CAF9 /* km-to-miles-converter */,
+				66FE718B20DB282200D5CAF9 /* km-to-miles-converterTests */,
+				66FE719620DB282200D5CAF9 /* km-to-miles-converterUITests */,
+				66FE717120DB282100D5CAF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FE717120DB282100D5CAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FE717020DB282100D5CAF9 /* km-to-miles-converter.app */,
+				66FE718820DB282200D5CAF9 /* km-to-miles-converterTests.xctest */,
+				66FE719320DB282200D5CAF9 /* km-to-miles-converterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FE717220DB282100D5CAF9 /* km-to-miles-converter */ = {
+			isa = PBXGroup;
+			children = (
+				66FE717320DB282100D5CAF9 /* AppDelegate.h */,
+				66FE717420DB282100D5CAF9 /* AppDelegate.m */,
+				66FE717620DB282100D5CAF9 /* ViewController.h */,
+				66FE717720DB282100D5CAF9 /* ViewController.m */,
+				66FE717920DB282100D5CAF9 /* Main.storyboard */,
+				66FE717C20DB282200D5CAF9 /* Assets.xcassets */,
+				66FE717E20DB282200D5CAF9 /* LaunchScreen.storyboard */,
+				66FE718120DB282200D5CAF9 /* Info.plist */,
+				66FE718220DB282200D5CAF9 /* main.m */,
+			);
+			path = "km-to-miles-converter";
+			sourceTree = "<group>";
+		};
+		66FE718B20DB282200D5CAF9 /* km-to-miles-converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FE718C20DB282200D5CAF9 /* km_to_miles_converterTests.m */,
+				66FE718E20DB282200D5CAF9 /* Info.plist */,
+			);
+			path = "km-to-miles-converterTests";
+			sourceTree = "<group>";
+		};
+		66FE719620DB282200D5CAF9 /* km-to-miles-converterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FE719720DB282200D5CAF9 /* km_to_miles_converterUITests.m */,
+				66FE719920DB282200D5CAF9 /* Info.plist */,
+			);
+			path = "km-to-miles-converterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FE716F20DB282100D5CAF9 /* km-to-miles-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE719C20DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converter" */;
+			buildPhases = (
+				66FE716C20DB282100D5CAF9 /* Sources */,
+				66FE716D20DB282100D5CAF9 /* Frameworks */,
+				66FE716E20DB282100D5CAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "km-to-miles-converter";
+			productName = "km-to-miles-converter";
+			productReference = 66FE717020DB282100D5CAF9 /* km-to-miles-converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FE718720DB282200D5CAF9 /* km-to-miles-converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE719F20DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converterTests" */;
+			buildPhases = (
+				66FE718420DB282200D5CAF9 /* Sources */,
+				66FE718520DB282200D5CAF9 /* Frameworks */,
+				66FE718620DB282200D5CAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FE718A20DB282200D5CAF9 /* PBXTargetDependency */,
+			);
+			name = "km-to-miles-converterTests";
+			productName = "km-to-miles-converterTests";
+			productReference = 66FE718820DB282200D5CAF9 /* km-to-miles-converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FE719220DB282200D5CAF9 /* km-to-miles-converterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FE71A220DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converterUITests" */;
+			buildPhases = (
+				66FE718F20DB282200D5CAF9 /* Sources */,
+				66FE719020DB282200D5CAF9 /* Frameworks */,
+				66FE719120DB282200D5CAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FE719520DB282200D5CAF9 /* PBXTargetDependency */,
+			);
+			name = "km-to-miles-converterUITests";
+			productName = "km-to-miles-converterUITests";
+			productReference = 66FE719320DB282200D5CAF9 /* km-to-miles-converterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FE716820DB282100D5CAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jesús Alejandro Romero Zárate";
+				TargetAttributes = {
+					66FE716F20DB282100D5CAF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					66FE718720DB282200D5CAF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66FE716F20DB282100D5CAF9;
+					};
+					66FE719220DB282200D5CAF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66FE716F20DB282100D5CAF9;
+					};
+				};
+			};
+			buildConfigurationList = 66FE716B20DB282100D5CAF9 /* Build configuration list for PBXProject "km-to-miles-converter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FE716720DB282100D5CAF9;
+			productRefGroup = 66FE717120DB282100D5CAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FE716F20DB282100D5CAF9 /* km-to-miles-converter */,
+				66FE718720DB282200D5CAF9 /* km-to-miles-converterTests */,
+				66FE719220DB282200D5CAF9 /* km-to-miles-converterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FE716E20DB282100D5CAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE718020DB282200D5CAF9 /* LaunchScreen.storyboard in Resources */,
+				66FE717D20DB282200D5CAF9 /* Assets.xcassets in Resources */,
+				66FE717B20DB282100D5CAF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE718620DB282200D5CAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE719120DB282200D5CAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FE716C20DB282100D5CAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE717820DB282100D5CAF9 /* ViewController.m in Sources */,
+				66FE718320DB282200D5CAF9 /* main.m in Sources */,
+				66FE717520DB282100D5CAF9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE718420DB282200D5CAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE718D20DB282200D5CAF9 /* km_to_miles_converterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE718F20DB282200D5CAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FE719820DB282200D5CAF9 /* km_to_miles_converterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FE718A20DB282200D5CAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE716F20DB282100D5CAF9 /* km-to-miles-converter */;
+			targetProxy = 66FE718920DB282200D5CAF9 /* PBXContainerItemProxy */;
+		};
+		66FE719520DB282200D5CAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FE716F20DB282100D5CAF9 /* km-to-miles-converter */;
+			targetProxy = 66FE719420DB282200D5CAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FE717920DB282100D5CAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FE717A20DB282100D5CAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FE717E20DB282200D5CAF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FE717F20DB282200D5CAF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FE719A20DB282200D5CAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66FE719B20DB282200D5CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FE719D20DB282200D5CAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66FE719E20DB282200D5CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66FE71A020DB282200D5CAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/km-to-miles-converter.app/km-to-miles-converter";
+			};
+			name = Debug;
+		};
+		66FE71A120DB282200D5CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/km-to-miles-converter.app/km-to-miles-converter";
+			};
+			name = Release;
+		};
+		66FE71A320DB282200D5CAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "km-to-miles-converter";
+			};
+			name = Debug;
+		};
+		66FE71A420DB282200D5CAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "km-to-miles-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.km-to-miles-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "km-to-miles-converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FE716B20DB282100D5CAF9 /* Build configuration list for PBXProject "km-to-miles-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE719A20DB282200D5CAF9 /* Debug */,
+				66FE719B20DB282200D5CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE719C20DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE719D20DB282200D5CAF9 /* Debug */,
+				66FE719E20DB282200D5CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE719F20DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE71A020DB282200D5CAF9 /* Debug */,
+				66FE71A120DB282200D5CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FE71A220DB282200D5CAF9 /* Build configuration list for PBXNativeTarget "km-to-miles-converterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FE71A320DB282200D5CAF9 /* Debug */,
+				66FE71A420DB282200D5CAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FE716820DB282100D5CAF9 /* Project object */;
+}
