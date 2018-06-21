@@ -27,9 +27,13 @@
 
 
 - (IBAction)convertButton:(UIButton *)sender {
-    float kmValue = [self.kmInput.text floatValue];
-    float milesResult = kmValue / 1.609;
+    // This is the largest way to do this app
+    /* float kmValue = [self.kmInput.text floatValue];
+    float milesConverted = kmValue / 1,609;
     
-    [self.milesResult setText:[NSString stringWithFormat:@"The result: %f miles",milesResult]];
+    [self.milesResult setText:[NSString stringWithFormat:@"The result: %f miles",milesConverted]]; */
+    
+    // This is the shortest way to do this app
+    [self.milesResult setText:[NSString stringWithFormat:@"The result: %f miles",([self.kmInput.text floatValue] / 1.609)]];
 }
 @end
